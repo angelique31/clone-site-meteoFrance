@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow"/>
+    <title>Document</title>
+    <meta name="description" content="clone site Météo France">
+    <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/0b6d538c32.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo-meteoFrance.png">
+</head>
+<body>
+    <header>
+       <nav>
+            <img class="logo"  src="./assets/logo.png" alt="logo de meteo France">
+            <div class="search_input">
+                <input type="text" id="search_input" placeholder="Rechercher une ville, un pays" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            
+            <div class="social-left">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>    
+            <div class="icon-right">
+                <i class="fa-solid fa-bell"></i>
+                <img class="map" src="./assets/carte-france.png" alt="image miniture de la carte de France">
+                <div class="exclamation">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p>Vigilance météo</p>
+            </div>
+            
+        </nav>
+    </header>
+
+<!-- Section Icon -->
+<section class="section_icon">
+    <div class="icon">
+        <a href="#"><i class="fa-solid fa-cloud-sun"></i>
+        <p>PREVISIONS</p></a>
+    </div>
+    <div>
+        <a href="#"><i class="fa-solid fa-water"></i>
+        <p>METEO MARINE</p></a>
+    </div>
+    <div>
+        <a href="#"><i class="fa-solid fa-mountain"></i>
+        <p>METEO MONTAGNE</p></a>
+    </div>
+    <div>
+        <a href="#" ><i class="fa-sharp fa-solid fa-earth-europe"></i>
+        <p>CLIMAT</p>
+        <i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+    <div>
+        <a href="#"><i class="fas fa-newspaper"></i>
+        <p>ACTUS & DOSSIERS</p>
+        <i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+    <div>
+        <a href="#"><i class="fas fa-user-plus"></i>
+            <p>NOS SERVICES</p>
+        </a>
+    </div>
+    <div class="hamburger" aria-label="Toggle navigation" >
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</section>
+
+<!-- Section background blue -->
+<section class="section_background_blue">
+    <div class="city">
+        <p>Ajouter une ville</p>
+        <i class="fa-regular fa-circle-xmark"></i>
+    </div>
+</section>
+<!-- Main -->
+<main>
+    <section class="container">
+        <div class="border_white">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <p>Bulletin de prévision pour la Marine</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="main_white">
+            <h2>METEO FRANCE</h2>
+            <div class="titles">
+                <h3>AUJOURD'HUI</h3>
+                <h3>DEMAIN</h3>
+                <h3>WEEK-END</h3>
+                <h3>7 JOURS</h3>
+                <h3>15 JOURS</h3>
+                <h3>TENDANCES</h3>
+            </div>
+            <img src="./assets/carte-france-big.png" alt="carte de France">
+        </div>
+        
+    </section>
+</main>
+
+
+
+  <script src="/docs/js/index.js"></script>  
+</body>
+</html>
