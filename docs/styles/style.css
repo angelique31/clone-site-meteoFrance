@@ -265,6 +265,7 @@ main{
     background-color: white;
     margin-left: 144px;
     margin-right: 164px;
+    min-width: 40%;
 }
 
 .menuSelect{
@@ -362,6 +363,7 @@ article{
     margin-right: 164px;
     background: #f3f3f3;
     padding: 20px;
+    min-width: 40%;
 }
 
 .flex-left{
@@ -470,6 +472,7 @@ article{
     margin-right: 164px;
     background: #f3f3f3;
     padding: 20px;
+    min-width: 40%;
 }
 
 .map_satelite img{
@@ -522,6 +525,7 @@ article{
     margin-left: 144px;
     margin-right: 164px;
     padding-bottom: 30px;
+    min-width: 40%;
 }
 
 .flex{
@@ -531,6 +535,7 @@ article{
     background: #f3f3f3;
     padding: 20px 20px 60px 20px;
     gap: 20px;
+    min-width: 40%;
 }
 
 .flex .picture3{
@@ -732,6 +737,10 @@ ul{
         margin-left: 19px;
         margin-top: 10px;
     }
+    .video_meteo .video .fa-play{
+        left: 303px;
+        bottom: 303px;
+    }
     article{
         flex-direction: column;
         
@@ -773,6 +782,9 @@ ul{
 }
 
 @media screen and (max-width: 846px){
+    .video_meteo .video .fa-play{
+        left: 188px;
+    }
     .flex-left .flex-top{
         flex-direction: column;
     }
@@ -823,5 +835,48 @@ ul{
 }
 
 @media screen and (max-width: 600px){
-    
+    .container .main_white{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sort{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .video_meteo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    article{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .map_satelite{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flex{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .actualite{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container .main_white .titles{
+        width: 100%;
+    }
+    footer ul{
+        font-size: 0.6rem;
+        width: 52%;
+    }
+    footer h2{
+        font-size: 1.1rem;
+    }
+    .footer_menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-flex{
+        margin-left: 50px;
+    }
 }
