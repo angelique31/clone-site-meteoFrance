@@ -840,9 +840,23 @@ ul{
     }
     .search_input{
         margin-left: 20px;
+        bottom: -59px;
+    }
+    nav .fa-magnifying-glass{
+        height: 14px;
+    }
+    nav .map{
+        width: 30%;
+    }
+    .section_background_blue{
+        margin-top: 58px;
+    }
+    .hamburger{
+        top: 32px;
+        right: 124px;
     }
     .icon-right{
-        margin-left: 20px;
+        margin-left: 48px;
     }
     .container .main_white{
         margin-left: 0;
@@ -887,5 +901,8 @@ ul{
     }
     .footer-flex{
         margin-left: 50px;
+    }
+    .section_logo img{
+        width: 50%;
     }
 }
