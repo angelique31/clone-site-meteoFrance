@@ -835,6 +835,15 @@ ul{
 }
 
 @media screen and (max-width: 600px){
+    nav .logo{
+        display: none;
+    }
+    .search_input{
+        margin-left: 20px;
+    }
+    .icon-right{
+        margin-left: 20px;
+    }
     .container .main_white{
         margin-left: 0;
         margin-right: 0;
