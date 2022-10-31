@@ -848,6 +848,17 @@ ul{
     nav .map{
         width: 30%;
     }
+    .exclamation{
+        margin-right: 20px;
+    }
+    .exclamation p{
+        color: transparent;
+    }
+    .icon-right .fa-triangle-exclamation{
+        font-size: 2rem;
+        margin-top: 15px;
+    }
+   
     .section_background_blue{
         margin-top: 58px;
     }
