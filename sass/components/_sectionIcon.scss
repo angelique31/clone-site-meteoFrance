@@ -1,0 +1,52 @@
+
+.section_icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 55px;
+  margin-right: 100px;
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: global.$primary-color;
+    cursor: pointer;
+
+    &:hover {
+      color: #db0084;
+      transition: 0.6s;
+    }
+
+    p {
+      font-family: global.$font1;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+  }
+
+  .fa-solid, .fas {
+    color: global.$primary-color;
+    cursor: pointer;
+
+    &:hover {
+      color: #db0084;
+      transition: 0.6s;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hamburger{
+    position: absolute;
+    top: 59px;
+    right: 58px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hamburger{
+    top: 32px;
+    right: 124px;
+  }
+}

@@ -1,0 +1,25 @@
+.flex-right-bis {
+    img {
+      height: 220px;
+      width: 100%;
+      // object-fit: contain;
+    }
+  
+    span {
+      position: absolute;
+      left: 0;
+      bottom: 163px;
+      color: white;
+      padding: 2px 6px 2px 6px;
+      margin: 10px;
+      background-color: #db0084;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 0.7rem;
+      border-radius: 5px;
+    }
+  
+    .border_picture-bis {
+      position: relative;
+    }
+  }
+  

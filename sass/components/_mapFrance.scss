@@ -1,0 +1,103 @@
+main {
+    background-color: #dee2e6;
+
+    .container {
+        padding-top: 30px;
+
+        .border_white, .main_white {
+            background-color: global.$primary-light-color;
+            margin-left: 144px;
+            margin-right: 164px;
+            @media screen and (max-width: 600px) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .border_white {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            height: 50px;
+            margin-bottom: 20px;
+            position: relative;
+            @media screen and (max-width: 788px){
+                display: none;
+            }
+
+            p{
+                font-family: global.$font2;
+                font-weight: 900;
+                color: #db0084;
+            }
+            
+            .fa-triangle-exclamation, .fa-arrow-right {
+               
+                margin-left: 20px;
+                color: #db0084;
+                
+            }
+
+            .fa-arrow-right {
+                position: absolute;
+                right: 0;
+                margin-right: 10px;
+                bottom: 17px;
+            }
+        }
+
+        .main_white {
+            min-width: 40%;
+
+            h2, h3 {
+                font-family: global.$font1;
+                margin-left: 20px;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                @media screen and (max-width: 788px){
+                    padding-bottom: 15px;
+                }
+            }
+
+            .titles {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                @media screen and (max-width: 1100px) {
+                    height: 63px;
+                    background: #ffffff;
+                    bottom: 0;
+                    position: fixed;
+                    z-index: 20;
+                    width: 60%;
+                    overflow-x: auto;/*pour scroller sur le côté*/
+                }
+                @media screen and (max-width: 600px) {
+                    width: 100%;
+                  }
+                h3 {
+                    font-size: 0.8rem;
+                    padding-bottom: 10px;
+                    cursor: pointer;
+                    font-family: global.$font1;
+                }
+
+                .today {
+                    color: global.$primary-light-color;
+                    padding: 5px;
+                    background-color: #db0084;
+                }
+            }
+
+            img {
+                margin-left: 11px;
+                object-fit: cover;
+                max-width: 60%;
+            }
+        }
+    }
+}

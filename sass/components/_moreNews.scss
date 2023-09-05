@@ -1,0 +1,48 @@
+  .actualite {
+    .flex {
+      color: white;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      width: 30%;
+      background: #145e9a;
+      border-radius: 20px;
+      font-family: global.$font2;
+      @media screen and (max-width: 846px) {
+        width: 90%;
+      }
+      
+      a {
+        color: white;
+      }
+  
+      &:hover {
+        border: 2px solid #145e9a;
+        background: none;
+        color: #036ba1;
+        transition: 0.6s;
+      }
+      @media screen and (max-width: 846px) {
+        width: 90%;
+      }
+    }
+    
+  
+    .fa-arrow-right {
+      color: white;
+  
+      &:hover {
+        color: #036ba1;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+  
+ 
+  

@@ -1,0 +1,115 @@
+.flex-left {
+    width: 100%;
+  
+    .border_picture {
+      position: relative;
+      border: 2px solid white;
+      border-radius: 5px;
+      background: white;
+      width: 40%;
+      padding-bottom: 15px;
+      @media screen and (max-width: 1100px) {
+        width: 50%;
+      }
+      @media screen and (max-width: 846px){
+        width: 100%;
+      }
+    }
+  
+    .picture1,
+    .picture2 {
+      height: 160px;
+    }
+  
+    img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+      min-width: 100%;
+    }
+  
+    span {
+      position: absolute;
+      left: 0;
+      color: white;
+      padding: 2px 6px;
+      margin: 10px;
+      background-color: #db0084;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 0.7rem;
+      border-radius: 5px;
+    }
+  
+    .title {
+      font-weight: 400;
+      font-size: 0.8rem;
+      line-height: 21px;
+      text-align: justify;
+      height: 66px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 7;
+      padding: 5px;
+    }
+  
+    h3, p {
+      font-size: 0.8rem;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    p {
+      font-weight: 100;
+    }
+  }
+  
+  .flex-right {
+    .border_picture {
+      h4, p {
+        font-size: 0.8rem;
+        font-family: 'Roboto', sans-serif;
+      }
+    }
+  }
+  
+  .actualite {
+    background: #f3f3f3;
+    margin-left: 144px;
+    margin-right: 164px;
+    padding-bottom: 30px;
+    min-width: 40%;
+  }
+  
+  .flex {
+    display: flex;
+    margin-left: 144px;
+    margin-right: 164px;
+    background: #f3f3f3;
+    padding: 20px 20px 60px 20px;
+    gap: 20px;
+    min-width: 40%;
+    
+    .picture3 {
+      height: 160px;
+    }
+  
+    .span {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-right: 8px;
+      cursor: pointer;
+      padding-top: 10px;
+    }
+  
+    .arrow, .fa-arrow-right {
+      color: #1c9bd4;
+  
+      &:hover {
+        color: #db0084;
+      }
+    }
+  }
+  

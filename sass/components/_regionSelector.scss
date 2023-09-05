@@ -1,0 +1,20 @@
+.sort{
+    height: 50px;
+    background-color: white;
+    margin-left: 144px;
+    margin-right: 164px;
+    min-width: 40%;
+    @media screen and (max-width: 600px) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.menuSelect{
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    @media screen and (max-width: 788px){
+        width: 90%;
+    }
+}

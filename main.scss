@@ -1,0 +1,15 @@
+@use "./sass/bases/global";
+@use "./sass/bases/polices";
+
+@import "./sass/components/nav";
+@import "./sass//components/sectionIcon";
+@import "./sass/components/sectionBackgroundBlue";
+@import "./sass/components/mapFrance";
+@import "./sass/components/regionSelector";
+@import "./sass/components/videoMeteo";
+@import "./sass/components/articleWithImage";
+@import "./sass/components/satelliteMap";
+@import "./sass/components/flexRightArticle";
+@import "./sass/components/newsLayout";
+@import "./sass/components/moreNews";
+@import "./sass/components/footer";

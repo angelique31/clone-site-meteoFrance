@@ -1,0 +1,39 @@
+.map_satelite {
+    margin-left: 144px;
+    margin-right: 164px;
+    background: #f3f3f3;
+    padding: 20px;
+    min-width: 40%;
+    @media screen and (max-width: 600px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    img {
+      object-fit: cover;
+      width: 56%;
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+    h5 {
+      color: #145e9a;
+      font-size: 1rem;
+      font-family: global.$font1;
+      font-weight: 800;
+      margin-bottom: 5px;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      font-family: global.$font2;
+      width: 56%;
+      text-align: justify;
+      line-height: 1.5;
+      margin-top: 10px;
+      @media screen and (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+  }
+
+

@@ -1,0 +1,31 @@
+.section_background_blue {
+    background-color: #036ba1;
+    height: 40px;
+    margin-top: 20px;
+    @media screen and (max-width: 788px) {
+      margin-top: 45px;
+    }
+    @media screen and (max-width: 600px) {
+      margin-top: 58px;
+    }
+  
+    .city {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding-top: 10px;
+  
+      .fa-circle-xmark {
+        transform: rotate(45deg);
+        color: white;
+      }
+  
+      p {
+        color: white;
+        margin-left: 150px;
+        font-size: 0.7rem;
+        font-family: global.$font1;
+      }
+    }
+  }
+  
