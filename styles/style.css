@@ -585,7 +585,7 @@ article .flex-right .border_picture h4, article .flex-right .border_picture p {
   font-family: "Roboto", sans-serif;
 }
 article .flex-right .border_picture p {
-  color: #1c9bd4;
+  color: #177BA6;
   margin-top: 6px;
 }
 article .flex-right .border_picture img {
@@ -767,7 +767,7 @@ article .flex-right .border_picture img {
   padding-top: 10px;
 }
 .flex .arrow, .flex .fa-arrow-right {
-  color: #1c9bd4;
+  color: #177BA6;
 }
 .flex .arrow:hover, .flex .fa-arrow-right:hover {
   color: #db0084;
